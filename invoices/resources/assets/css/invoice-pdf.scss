@@ -1,0 +1,296 @@
+// New York PDF CSS
+.invoice-header {
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.border-top {
+    border-top: 1px solid #83b130 !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #83b130 !important;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #c0c0c0 !important;
+}
+
+.border-0 {
+    border: 0px solid white !important;
+}
+.product-table,
+.total-table {
+    margin: 0;
+    tr {
+        th,
+        td {
+            border: 0px solid white !important;
+            padding: 6px 0 !important;
+        }
+    }
+}
+.text-end {
+    text-align: right !important;
+}
+.companylogo {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.invoice-header-inner {
+    text-align: right;
+}
+
+.invoice-header-inner h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.details-section {
+    margin-bottom: 3rem;
+}
+
+.invoice-header p {
+    color: #555;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.text-color {
+    color: #999999;
+}
+
+.invoice-date {
+    padding: 15px 0;
+    border-top: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.billedto {
+    padding: 15px 20px;
+    border-top: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.from {
+    padding: 15px 20px;
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.notes-terms {
+    margin-top: 3rem;
+    padding: 0 15px;
+}
+
+.regards {
+    margin-top: 2rem;
+    padding: 0 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", DejaVu Sans, sans-serif;
+    padding: 30px;
+    font-size: 14px;
+}
+
+.font-color-gray {
+    color: #7a7a7a;
+}
+
+.main-heading {
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-right {
+    text-align: right;
+    vertical-align: top;
+}
+
+.logo,
+.company-name {
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.address {
+    margin-top: 60px;
+}
+
+.address tr:first-child td {
+    padding-bottom: 10px;
+}
+
+.d-items-table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.d-items-table thead {
+    background: #2f353a;
+    color: #fff;
+}
+
+.d-items-table td,
+.d-items-table th {
+    padding: 8px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    vertical-align: top;
+}
+
+.d-invoice-footer {
+    margin-top: 15px;
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.items-table td,
+.items-table th {
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.invoice-footer {
+    margin-top: 15px;
+    width: 100%;
+    text-align: right;
+}
+
+.number-align {
+    text-align: right !important;
+}
+
+.invoice-currency-symbol {
+    font-family: "DejaVu Sans";
+}
+
+.vertical-align-top {
+    vertical-align: text-top;
+}
+
+.tu {
+    text-transform: uppercase;
+}
+
+.l-col-66 {
+    width: 100%;
+}
+
+.thank {
+    font-size: 45px;
+    line-height: 1.2em;
+    text-align: center;
+    font-style: italic;
+    padding-right: 25px;
+}
+
+.to-font-size {
+    font-size: 15px;
+}
+
+.from-font-size {
+    font-size: 15px;
+}
+
+.right-align {
+    text-align: right !important;
+}
+
+.border-b {
+    border-bottom: 1px solid #000000;
+}
+.border-t {
+    border-top: 1px solid #000000;
+}
+.bg-black {
+    background-color: #000000;
+}
+.bg-gray {
+    background-color: #eaebec;
+}
+.bg-gray-100 {
+    background-color: #f2f2f2;
+}
+.bg-danger {
+    background-color: #d71920;
+}
+.bg-purple {
+    background-color: #b57ebf;
+}
+.text-purple {
+    color: #b57ebf;
+}
+.border-b-gray {
+    border-bottom: 1px solid #bbbdbf;
+}
+.text-end {
+    text-align: right !important;
+}
+
+.ps-5rem {
+    padding-left: 5rem;
+}
+.header-section {
+    position: relative !important;
+    overflow: hidden;
+    &::after {
+        position: absolute;
+        content: "";
+        width: 116% !important;
+        height: 100%;
+        background-color: white;
+        top: 0;
+        left: -53px;
+        transform: skew(35deg);
+        z-index: 0;
+    }
+    table {
+        position: relative;
+        z-index: 2;
+    }
+    .invoice-text {
+        position: relative !important;
+        &::after {
+            position: absolute;
+            content: "";
+            width: 26%;
+            height: 100%;
+            background-color: white;
+            top: 0;
+            left: 89%;
+            transform: skew(35deg);
+        }
+    }
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
